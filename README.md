@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vouu gerenciar meus repositórios!
 
-<a href="https://marxwesley.github.io/html-css/Desafios/Desafio%20010/android.html"  target="_blank" >Executar o site Android</a>
+<a href="https://marxwesley.github.io/html-css/Desafios/Desafio_010/android-site.txt"  target="_blank" >Executar o site Android</a>
