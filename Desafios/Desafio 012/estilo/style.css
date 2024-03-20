@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --font_texto: "Sriracha",'sans-serif';
+    --font_titulo:"Passion One", 'sans-serif';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: var(--font_texto);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 150px;
+}
+
+header > h1{
+    font-family: var(--font_titulo);
+    font-size: 5em;
+    padding-top: 40px;
+    padding-bottom: -10px;
+    font-weight: normal;
+}
+
+header > p{
+    color: white;
+    margin-top: -20px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+header > p > strong {
+    color: rgba(128, 128, 128, 0.747);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 3px 1px black;
+
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+#primeira_estrofe {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+#segunda_estrofe{
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px -20px 0px -20px;
+}
+
+#terceira_estrofe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
